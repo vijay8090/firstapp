@@ -42,7 +42,11 @@ app.controller('customersCtrl', function($scope, $http) {
     };
   $http.post("http://numeracy.vansquare.com/login.php",FormData)
   .success(function (response) {
-  $scope.loginMsg = response.message;
+   $scope.loginMsg = response.message;
+  // alert(response.message.indexOf("Success") > -1);
+   if(response.message.indexOf("Success") > -1) {
+   window.location = "success.html";
+   }
   });
   }
 });
