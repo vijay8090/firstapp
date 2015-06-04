@@ -1,0 +1,15 @@
+body {
+    background-color: #807878;
+	font-family: Lato, sans-serif !important;
+	font-size: 12px;
+	color:#ffffff;
+}
+
+.header {
+background-color: #2D2B2B;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
